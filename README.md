@@ -37,14 +37,14 @@ This is an experimental bot for auto trading the kucoin.com exchange.
 
 ## Usage
 
-    python trader.py --symbol XVG-BTC
+    python trader.py --symbol KCS-BTC
     
     With option parameters
 
-    python trader.py --symbol XVG-BTC --quantity 200 --profit 1.3 --loop 0 --orderid 0
+    python trader.py --symbol KCS-BTC --quantity 6 --profit 1.3 --loop 0 --orderid 0
     
-    --quantity     Buy/Sell Quantity (default 200)
-    --symbol       Market Symbol (default XVGBTC)
+    --quantity     Buy/Sell Quantity (default 6)
+    --symbol       Market Symbol (default KCS-BTC)
     --profit       Target Profit (default 1.3)
     --orderid      Target Order Id (default 0)
     --wait_time    Wait Time (seconds) (default 1)
@@ -67,7 +67,7 @@ This is an experimental bot for auto trading the kucoin.com exchange.
     
     Variations;
         trader.py --symbol NEO-KCS --quantity 100 --profit 3
-        trader.py --symbol XRB-BTC --quantity 20 --profit 1.1
+        trader.py --symbol KCS-BTC --quantity 6 --profit 1.1
         trader.py --symbol ETH-USDT --quantity 0.3 --profit 1.5
         ...
     
